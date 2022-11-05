@@ -213,6 +213,22 @@ button:hover {
   .theme h1{
     font-size: 20px;
   }
+
+  .sub-text{
+    font-size: 15px;
+  }
+  
+}
+
+@media (max-width:400px) {
+  .text-main .heading{
+    font-size: 40px;
+  }
+
+
+  .theme h1{
+    font-size: 15px;
+  }
   
 }
 
@@ -250,6 +266,8 @@ button:hover {
     padding: 30px;
   }
 }
+
+
 
 
 
@@ -348,6 +366,18 @@ button:hover {
   .about-col p {
     width: 80%;
   }
+}
+
+@media (max-width:370px) {
+  .about-us{
+    padding-left: 0;
+  }
+
+  .about-col{
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  
 }
 
 
@@ -639,8 +669,31 @@ button:hover {
 
 @media (max-width: 450px) {
   .cubespinner div{
-    font-size: 15px;
+    font-size: 30px;
   }
+
+  .speaker-card-container{
+    flex-direction: column;
+  }
+
+  .outer-container{
+    height: 120vh;
+  }
+
+  .speaker-card-container .lottie-1{
+    padding-left: 2rem;
+  }
+
+  .speaker-info{
+    margin-top: 8rem;
+  }
+}
+
+@media (max-width: 365px) {
+  .cubespinner div{
+    font-size: 20px;
+  }
+  
 }
 /* speakers section */
 
